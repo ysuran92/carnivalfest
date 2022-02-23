@@ -1,0 +1,45 @@
+@font-face {
+    font-family: segoe;
+    src: url(../fonts/Segoe.ttf);
+}
+
+* {
+    font-family: segoe;
+    font-size: 1.5rem;
+}
+
+html { 
+    background: url(../assets/camp4.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textMain {
+    text-align: center;
+    color: black;
+}
+
+div.transbox {
+    margin: 3rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
+/****************************************************************************************/
+
+@media only screen and (max-width: 1280px) {
+    * {
+        font-family: segoe;
+        font-size: 1.5rem;
+    }
+
+    div.transbox {
+        margin: 1rem;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.5;
+    }
+}
